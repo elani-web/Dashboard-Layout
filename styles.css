@@ -82,3 +82,10 @@ body {
     border-radius: 25px;
     width: 470px;
 }
+
+@media (max-width: 600px) and (max-width){
+    div {
+      height: 200px;
+      width: 200px;
+    }
+  }
