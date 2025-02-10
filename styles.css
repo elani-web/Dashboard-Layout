@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    position: relative;
+    margin-top: 50px;
+    height: 100vh;
+    gap: 5px;
+}
+.plain {
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.first {
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.second {
+    width: 250px;
+    border-radius: 25px;
+    grid-column: 2;
+}
+.third {
+    width: 250px;
+    border-radius: 25px;
+    grid-column: 3;
+}
+.fourth {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    grid-column: 4;
+    right:-5px;
+}
+.fifth {
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    grid-row: 2;
+}
+.sixth {
+    position: relative;
+    width: 270px;
+    border-radius: 25px;
+    top: 390px;
+    right:-10px;
+    grid-column: 4;
+}
+.seventh {
+    position: absolute;
+    bottom: 10px;
+    width: 270px;
+    border-radius: 25px;
+    grid-column: 2;
+    grid-row: 2;
+}
+.eight {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 25px;
+    width: 470px;
+}
